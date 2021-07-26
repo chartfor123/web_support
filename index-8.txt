@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>EC2_AZ --- EC2_PRIVATE_IP --- EC2_PUBLIC_IP</title>
+
+  <style type="text/css">
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 20px;
+    }
+    body {
+      background-color: #BACKCOLOR;
+      text-align: left;
+      font-family: monospace;
+      font-size: 42px;
+    }
+  </style>
+</head>
+
+<body>
+
+<table cellpadding="10" cellspacing="10">
+  <tr>
+    <td>Availability Zone:</td>
+    <td>EC2_AZ</td>
+  </tr>
+  <tr>
+    <td>Public IP:</td>
+    <td>EC2_PUBLIC_IP</td>
+  </tr>
+  <tr>
+    <td>Private IP:</td>
+    <td>EC2_PRIVATE_IP</td>
+  </tr>
+  <tr>
+    <td>Hostname:</td>
+    <td>EC2_HOSTNAME</td>
+  </tr>
+  <tr>
+    <td>Instance ID:</td>
+    <td>EC2_ID</td>
+  </tr>
+  <tr>
+    <td>Security Group:</td>
+    <td>EC2_SG</td>
+  </tr>
+  <tr>
+    <td>Nickname:</td>
+    <td>INSTANCE</td>
+  </tr>
+</table>
+
+</body>
+</html>
